@@ -1,0 +1,133 @@
+/*thank u page*/
+button {
+    width: 15%;
+    padding: 0.6rem;
+    background-color:rgb(209, 132, 174);
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.thanks h1{
+    text-align: center;
+    text-decoration: double;
+    padding-top: 20%;
+    text-shadow: 2px 1px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*teach and learn page*/
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    padding: 2rem;
+    background: rgba(150, 77, 125, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 16px 20px rgba(0,0,0,0.5);
+    text-align: center;
+}
+.container h2{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    font-weight: 70;
+}
+input{
+    width: 70%;
+    padding: 0.8rem;
+    border-radius: 15px;
+    border: none;
+}
+.container button {
+    width: 20%;
+    padding: 0.6rem;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/*MenuBox*/
+.menubar{
+    background:url("https://cdn.hipwallpaper.com/i/50/4/F6ECsv.jpg");
+    background:url("https://images.pexels.com/photos/132197/pexels-photo-132197.jpeg?cs=srgb&dl=pexels-fwstudio-132197.jpg&fm=jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.menubar{
+background: rgb(16, 71, 19);
+text-align: center;
+position: absolute;
+top: 0%;
+left: 0;
+right: 0;
+}
+.menubar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+.menubar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+ .menubar ul li a{
+     text-decoration: none;
+     color: white;
+ }
+.active,.menubar ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.menubar .fa{
+    margin: right 8px;
+}
+.menubar ul li io{
+    text-align: left;
+}
+
+
+/*Footer*/
+footer{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background-color: rgb(16, 71, 19);
+    height: auto;
+    font-family: sans-serif;
+    color: white;
+    
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+    text-align: center;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+}
+.social a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.social a:hover i{
+    color: aqua;
+}
+.footer-content h3{
+    text-align: center;
+    text-decoration: white;
+    font-size: 20;
+}
